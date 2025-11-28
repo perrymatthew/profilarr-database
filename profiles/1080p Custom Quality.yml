@@ -1,5 +1,5 @@
 name: 1080p Custom Quality
-description: "1080p Quality that prefers x265 and AV1 encodes. \n\n- 1080p Blurays\n\
+description: "1080p Quality that prefers AV1 (then x265) encodes. \n\n- 1080p Blurays\n\
   - Fallbacks in Place for Proper Quality Progression\n- 1080p Bluray > 1080p WEB-DL\
   \ > 720p Bluray > 720p WEB-DL > 480p WEB-DL > DVD"
 tags:
@@ -59,17 +59,17 @@ custom_formats:
 - name: DVD
   score: 20000
 - name: DVD Remux
-  score: 20000
+  score: -999999
 - name: SD Quality Tier 1
   score: 11000
 - name: SD Quality Tier 2
   score: 10000
 - name: AV1
-  score: 4000
+  score: 26000
 - name: x265
-  score: 3500
+  score: 22000
 - name: h265
-  score: 3500
+  score: 22000
 - name: AMZN
   score: 3000
 - name: ATVP

@@ -1,0 +1,16 @@
+name: h265 (2160p)
+description: Matches 2160p releases labelled with h265/HEVC.
+tags:
+- Codec
+conditions:
+- name: h265
+  negate: false
+  pattern: h265
+  required: true
+  type: release_title
+- name: 2160p
+  negate: false
+  required: true
+  resolution: 2160p
+  type: resolution
+tests: []
