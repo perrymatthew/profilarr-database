@@ -69,6 +69,11 @@ conditions:
   pattern: DRX
   required: false
   type: release_group
+- name: E
+  type: release_group
+  required: false
+  negate: false
+  pattern: E
 - name: FGT
   negate: false
   pattern: FGT
@@ -112,11 +117,6 @@ conditions:
 - name: NhaNc3
   negate: false
   pattern: NhaNc3
-  required: false
-  type: release_group
-- name: NoGroup
-  negate: false
-  pattern: NoGroup
   required: false
   type: release_group
 - name: OEPlus
@@ -175,10 +175,10 @@ conditions:
   required: false
   type: release_group
 - name: UnKn0wn
-  type: release_group
-  required: false
   negate: false
   pattern: UnKn0wn
+  required: false
+  type: release_group
 - name: VD0N
   negate: false
   pattern: VD0N
